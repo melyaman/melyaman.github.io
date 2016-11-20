@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Calculate Pi function</title>
+
+    <!-- Theme CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    
+    <!-- Plugin JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-6">
+                    <h2 class="navbar-brand">Prime numbers calculator</h2>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+    </nav>
+
+    <div class="program">
+        <div class="container">
+            <div class="description">
+                <h4>This app calculates the number of primes less than a given number.</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                	<input type="number" id="num" class="form-control col-lg-8" placeholder="Entrer your number"/>
+                </div>
+                <div class="col-lg-2">
+                    <button type="button"  onclick="prime()"  class="btn btn-primary " style="float:left;">  
+                        <span id= "hh">Submit      
+                        </span>  
+                    </button>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class=" alert alert-info" id='resultPos'>
+   		                <p>The total number is <strong id='printResult'> </strong></p>
+             		</div>
+             		<div class="alert alert-warning" id='missingPos'>
+             		    Please enter a number
+             	   </div>
+                </div>
+                <div class="col-lg-4">
+                </div>
+            </div>
+            <hr>
+            <span class="skills">By : El yamani Mohamed</span>
+            </div>
+    </div>
+    
+    <script>
+        document.getElementById('resultPos').style.display="none";
+        document.getElementById('missingPos').style.display="none";
+    </script>
+    <script src='js/prime.js'></script>
+    
+</body>
+</html>

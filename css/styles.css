@@ -1,0 +1,53 @@
+.description
+{
+    display:block;
+    margin:0 auto 20px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+body
+{   color:rgb(0,24,122) !important;
+    background:#E1E1E9 !important;
+    font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden
+}
+
+h2
+{	color:#FFFFFF !important;
+    /*font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family:Arial !important;
+    /*text-transform:uppercase;*/
+    font-weight:700
+}
+
+.program
+{
+    text-align:center;
+    background:#E1E1E9
+}
+
+.program .container
+{
+    padding-top:200px;
+    padding-bottom:100px;
+    background:#E1E1E9
+}
+
+.navbar-custom
+{
+    padding:25px 0;
+    -webkit-transition:padding .3s;
+    -moz-transition:padding .3s;
+    transition:padding .3s;
+}
+.navbar-custom .navbar-brand
+{
+    font-size:2em;
+    -webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    transition:all .3s;
+}
+
+.navbar
+{
+    background:#121A83 !important
+}
