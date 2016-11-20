@@ -13,7 +13,7 @@ function prime(){
           document.getElementById('missingPos').style.display="none";
 
           if(n<2){
-            document.getElementById('printResult').innerHTML='total number : 0';
+            document.getElementById('printResult').innerHTML='0';
             document.getElementById('resultPos').style.display="inline-table";
             return 0; 
           }
