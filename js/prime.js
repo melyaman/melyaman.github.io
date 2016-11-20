@@ -5,7 +5,7 @@ function prime(){
           n=document.getElementById('num').value;
           m=parseInt(n); // used to validate the input.
           n=Math.ceil(n); // in case a float is given as input.
-          var MAX = 10**8;
+          var MAX = Math.pow(10,8);
           // input validation
           if(isNaN(m)){ 
             document.getElementById('resultPos').style.display="none";
